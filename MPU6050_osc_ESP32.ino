@@ -1,4 +1,5 @@
-
+//Diego Parbuono ©OSC Project//
+//_Enjoy_//
 #include <ESP8266WebServer.h>
 
 #if defined(ESP8266)
