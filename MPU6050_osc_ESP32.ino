@@ -241,7 +241,7 @@ void loop()
 void acXOSC(){
    calcRotation();
     // read btnInput and send OSC
-    OSCMessage msgOut("/1/accelX");
+    OSCMessage msgOut("/ax");
      msgOut.add(acc_x);
     
         Serial.print("AccX: ");
@@ -257,7 +257,7 @@ void acXOSC(){
 void acYOSC(){
    calcRotation();
     // read btnInput and send OSC
-    OSCMessage msgOut("/1/accelY");
+    OSCMessage msgOut("/ay");
      
     
      msgOut.add(acc_y);
@@ -273,7 +273,7 @@ void acYOSC(){
 void acZOSC(){
    calcRotation();
     // read btnInput and send OSC
-    OSCMessage msgOut("/1/accelZ");
+    OSCMessage msgOut("/az");
      msgOut.add(acc_z);
    
         Serial.print("AccZ: ");
@@ -291,7 +291,7 @@ void acZOSC(){
 void anXOSC(){
    calcRotation();
     // read btnInput and send OSC
-    OSCMessage msgOut("/esp/gyroX");
+    OSCMessage msgOut("/gx");
     
      msgOut.add(angleX);
 
@@ -310,7 +310,7 @@ void anXOSC(){
 void anYOSC(){
    calcRotation();
     // read btnInput and send OSC
-    OSCMessage msgOut("/esp/gyroY");
+    OSCMessage msgOut("/gy");
      msgOut.add(angleY);
 
         Serial.print("GY: ");
@@ -328,7 +328,7 @@ void anYOSC(){
 void anZOSC(){
    calcRotation();
     // read btnInput and send OSC
-    OSCMessage msgOut("/esp/gyroZ");
+    OSCMessage msgOut("/gz");
      msgOut.add(angleZ);
      
         Serial.print("GZ: ");
