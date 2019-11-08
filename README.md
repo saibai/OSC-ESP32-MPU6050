@@ -21,9 +21,9 @@ Accelerometer wifi made with Esp32, is a controller wifi for OSC message
 # Connect
 
 - Wi-Fi Station "ESP-Accel" password "12345678"
-- Bonjour connection ESP-Accel
-- Port OUT 8000
-- Port IN 9000
+- Bonjour connection "ESP-Accel"
+- Port OUT "8000"
+- Port IN "9000"
 
 
 # OSC Message 
