@@ -15,3 +15,7 @@ Wi-Fi Station "ESP-Accel" password "12345678"
 - /gx        (GyroX)
 - /gy        (GyroY)
 - /gz        (GyroZ)
+
+# OSC library
+
+https://github.com/CNMAT/OSC
