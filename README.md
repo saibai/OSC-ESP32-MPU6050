@@ -1,6 +1,20 @@
 ![](osc-project.png)
-# OSC-ESP32-MPU6050
+
+# OSC-Accelerometer WiFi
+
 Accelerometer wifi made with Esp32, is a controller wifi for OSC message
+
+# Features
+- WiFI,OSC interfaces
+- No extra drivers to connect Windows, macOS, iOS (iPad/iPhone) and Android
+- IEEE 802.11 b/g/n Wi-Fi 2.4 GHZ with AutoConnection
+- Smart Config technology to help users connect to a Wi-Fi network through simple app on a smartphone or Computer.
+
+# Material
+
+- ESP32 board
+- MPU6050 accelerometer
+
 ![](osc-project-link.png)
 
 # Connect
